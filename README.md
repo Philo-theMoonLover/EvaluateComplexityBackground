@@ -1,5 +1,5 @@
 # EvaluateComplexityBackground
-This repository is use for evaluate the complexity (compute 'mse' and 'entropy') of the background of images which have face (The background is obtained from the image with the face removed)
+This repository is used for evaluate the complexity (compute 'mse' and 'entropy') of the background of images which have face (The background is obtained from the image with the face removed)
 
 To using this code, do these steps:
 
@@ -13,8 +13,8 @@ auto_crop02.py
 
 evaluate_complexity_.py
 
-+ This code will compute 'mse' and 'entropy' of image, the results save to file 'MSE_ENTROPY.csv'
++ This code will compute 'mse' and 'entropy' of image, the results will be saved to file 'MSE_ENTROPY.csv'
 
 Statistic.py
 
-+ This code will show you the statistic of above result.
++ This code will show you the statistic of above results.
