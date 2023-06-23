@@ -60,7 +60,7 @@ def main():
     if not live_files:
         return print(f"No files found in directory: [{live_dir}]")
     for file in live_files:
-        if file.endswith("tmp.jpg") or file.endswith("org.jpg"):
+        if file.endswith("tmp.jpg") or file.endswith("org.jpg"): # You can edit this line to meet your purposes
             imgpath = os.path.join(live_dir, file)
             crop_face(imgpath, dirName, extName)
 
